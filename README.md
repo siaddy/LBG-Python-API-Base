@@ -1,7 +1,7 @@
 # REST API starter
 
 This is a Python Flask REST API, serving a simple frontend for use in LBG programs
-
+This is a webhook test
 ## Installation
 
 To initialise the project you will need to install several dependencies, open up a git bash terminal from the repo directory and run the command:
