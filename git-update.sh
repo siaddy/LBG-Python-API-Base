@@ -1,5 +1,5 @@
 #!/bin/bash
-read -p "Continue (y/n)?" CONT
+read -p "Update GIT (y/n)?" CONT
 if [ "$CONT" = "y" ]; then
 
 # Exit script if any command fails
