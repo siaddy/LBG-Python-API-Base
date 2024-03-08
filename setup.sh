@@ -3,14 +3,16 @@
 # Exit script if any command fails
 
 set -e
-
+# Welcome
+echo "🌟🌟🌟 Welcome to the Simon's Docker Startup! 🌟🌟🌟"
+echo "🚢 Setting sail to a mystical land of containers... 🚢"
 # Define Docker image name
 
 DOCKER_IMAGE="siaddy"
 
 cleanup() {
 
-    echo "Cleaning up previous build artifacts..."
+    echo "Let's cleanup any mess ..."
 
     sleep 3
 
@@ -28,7 +30,7 @@ cleanup() {
 
 build_docker() {
 
-    echo "Building the Docker image..."
+    echo "Building the Docker image...🚢"
 
     sleep 3
 
@@ -40,7 +42,7 @@ build_docker() {
 
 modify_app() {
 
-    echo "Modifying the application..."
+    echo "Modifying the application...✨🎩"
 
     sleep 3
 
@@ -78,6 +80,6 @@ build_docker
 
 run_docker
 
-echo "Build process completed successfully."
-echo "Docker currently running :"
+echo "🌟🌟🌟Build process completed successfully.🌟🌟🌟"
+echo "Here is details of the Docker currently running :"
 docker ps --format "table {{.Image}}\t{{.Ports}}\t{{.Names}}"
