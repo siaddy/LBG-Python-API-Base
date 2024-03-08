@@ -81,5 +81,5 @@ build_docker
 run_docker
 
 echo "🌟🌟🌟Build process completed successfully.🌟🌟🌟"
-echo "Here is details of the Docker currently running :"
+echo "Here are the details of the Docker currently running :"
 docker ps --format "table {{.Image}}\t{{.Ports}}\t{{.Names}}"
